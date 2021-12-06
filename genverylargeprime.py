@@ -50,7 +50,6 @@ def generate_prime_candidate(length,minnum,maxnum):
         tc+=1
         # generate random bits
         p = getrandbits(length)
-        print("random bit : {}".format(p))
         if tc > 1000:
             print("having trouble generating a randome number !! Try again.")
             exit()
