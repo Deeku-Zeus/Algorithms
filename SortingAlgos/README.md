@@ -1,6 +1,6 @@
 # Sorting Algos
 
-- Selection Sort (**O(n^2)**)
+- |Selection Sort| (**O(n^2)**) |
 - Bubble Sort (**O(n^2)**)
 - Insertion Sort (**O(n^2)**)
 - Heap Sort (**O(n log(n))**)
