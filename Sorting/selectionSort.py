@@ -1,6 +1,14 @@
 import io
 from typing import List
 
+"""algo
+
+- Start with an empty sorted section and the full unsorted list.
+- Find the **minimum element** in the unsorted section.
+- Swap the minimum element with the first element of the unsorted section.
+- Repeat the process for the rest of the unsorted section, reducing its size by one in each iteration.
+"""
+
 def selection_sort(arr: List) -> List:
     arr = list(arr)
     n = len(arr)

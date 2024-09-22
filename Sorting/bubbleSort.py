@@ -1,6 +1,15 @@
 import io
 from typing import List
 
+""" algo
+
+- Start at the beginning of the list.
+- Compare each pair of adjacent elements.
+- If the current element is greater than the next one, swap them.
+- Continue this process, moving the largest unsorted element to the end in each iteration.
+- Repeat the above steps for the remaining unsorted part of the array.
+"""
+
 def bubble_sort(arr:List) -> List :
     arr = list(arr)
     n = len(arr)
