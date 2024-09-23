@@ -14,7 +14,6 @@ def selection_sort(arr: List) -> List:
     n = len(arr)
     for i in range(n):
         min_index = i
-        count = count + 1
         for j in range(i+1, n):
             if arr[j] < arr[min_index]:
                 min_index = j
